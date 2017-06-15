@@ -268,6 +268,8 @@ h1{
     border-bottom-left-radius: 2px;
 }
 .card .card-content {
+    -webkit-box-shadow: rgba(0,0,0,0.156863) 0px 2px 5px 0px, rgba(0,0,0,0.117647) 0px 2px 10px 0px;
+    box-shadow: rgba(0,0,0,0.156863) 0px 2px 5px 0px, rgba(0,0,0,0.117647) 0px 2px 1;    
     padding: 20px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -283,7 +285,7 @@ table{
 }
 table td{
     font-size: 13px;
-    border: 1px dashed #d0cccc!important;
+
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 2px;
@@ -335,7 +337,7 @@ a.o-score {
     text-align: center;
 }
 .blue-grey.darken-1 {
-    background-color: rgb(84,110,122)!important;
+    background-color: #fff !important;
 }
 .btn, .card, nav {
     -webkit-box-shadow: rgba(0,0,0,0.156863) 0px 2px 5px 0px,rgba(0,0,0,0.117647) 0px 2px 10px 0px;
@@ -594,9 +596,7 @@ img.logo {
     border: none !Important;
     margin-bottom: 0;
 }
-table tbody{
-    border: 1px #f2f2f2 solid;
-}
+
 a.o-score.lost {
     /*
     background: #ea3e3e;
@@ -1501,9 +1501,7 @@ td.system-WIN:hover:after,td.system-LOST:hover:after,td.tlt:hover:after {
         min-height: 214px;
         background: #f6f7f9;
     }
-    .blue-grey.darken-1{
-        background: #f6f7f9 !important;
-    }
+
     span.card-title.dd4.text-center{
         text-align: center !important;
     }
