@@ -725,10 +725,13 @@ span.white-text.bbt {
         padding-left: 0px;
     }    
 }
-@media all and (min-width:1366px) and (max-width: 1400px) {
+@media (max-width: 1400px) and (min-width: 1300px) {
     .container {
-        width: 99%!important;
-    }      
+        width: 99% !important;
+    }
+    table td {
+        font-size: 11px !important;
+    }
 }
 
 @media all and (min-width:570px) and (max-width: 1325px) {
