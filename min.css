@@ -731,7 +731,7 @@ span.white-text.bbt {
     }      
 }
 
-@media all and (min-width:570px) and (max-width: 1365px) {
+@media all and (min-width:570px) and (max-width: 1325px) {
     .w-300 .col-lg-2 a{
         font-size: 12px !Important;
     }
