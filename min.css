@@ -782,7 +782,9 @@ span.white-text.bbt {
         background: #3f7881;
     }
     #menu-header li a{
-        font-size: 12px !Important;
+		font-size: 11px !Important;
+    	padding: 0px 6px;
+		letter-spacing: 0px;
     }
 }
 #w1,#w2,#w3{
